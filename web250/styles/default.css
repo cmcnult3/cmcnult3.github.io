@@ -1,0 +1,14 @@
+body
+{
+  /* you better change this stuff */
+  margin: 200px;
+  font-family: papyrus;
+  color: blue;
+  background-color: black;
+  font-size: 100%;
+}
+header,footer
+{
+  text-align: center
+  font-family: Garamond, serif;
+}
