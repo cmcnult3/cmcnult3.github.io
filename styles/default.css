@@ -2,8 +2,8 @@ body
 {
   margin: 200px;
   font-family: Verdana, Arial, Tahoma, Serif;
-  color: darkslategray;
-  background-color: cornflowerblue;
+  color: #1e293b;
+  background-color: rgb(72,104,96);
   font-size: 100%;
 }
 header,footer
