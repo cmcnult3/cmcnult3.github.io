@@ -1,10 +1,9 @@
 body
 {
-  /* you better change this stuff */
   margin: 200px;
-  font-family: papyrus;
-  color: blue;
-  background-color: black;
+  font-family: Verdana, Arial, Tahoma, Serif;
+  color: darkslategray;
+  background-color: cornflowerblue;
   font-size: 100%;
 }
 header,footer
