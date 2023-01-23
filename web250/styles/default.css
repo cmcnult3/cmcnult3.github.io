@@ -1,13 +1,47 @@
-body
-{
-  margin: 200px;
-  font-family: Verdana, Arial, Tahoma, Serif;
-  color: #1e293b;
-  background-color: rgb(72,104,96);
-  font-size: 100%;
+body{
+	font-family: Helvetica, Verdana;
+	color: #fefce8;
+	background-color: rgb(72,104,96);
+	font-size: 100%;
 }
-header,footer
-{
-  text-align: center
-  font-family: Garamond, serif;
+div.heading {
+	color: #1e293b;
+	opacity: 0.5;
+	margin: 0px;
+	font-family: Helvetica, Verdana;
+	text-align: center;
 }
+a{
+	font-family: optima;
+}
+
+header{
+	background-color: #fef9c3;
+	border: 3px solid;
+	border-radius: 5px;
+}
+
+.heading nav{
+	word-spacing: 15px;
+}
+
+footer{
+	text-align: center;
+}
+.content{
+	margin: 100px;
+	line-height: 1.5;
+}
+
+.content strong{
+	color: #1e293b;
+	font-size: 125%;
+}
+
+.content em{
+	color: #fde047;
+}
+
+/* Colors : #1e293b dark gray, #fef9c3 light yellow */ 
+
+
