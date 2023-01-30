@@ -41,7 +41,10 @@ footer{
 	text-align: center;
 }
 .content{
-	margin: 100px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
 	line-height: 1.5;
 }
 
