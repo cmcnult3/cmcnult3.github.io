@@ -18,6 +18,7 @@ a{
 
 header a:hover{
     color: #fb923c; 
+    font-size: 19px;
 }
 
 a:hover{
@@ -29,6 +30,7 @@ a:hover{
 header nav{
 	word-spacing: 20px;
 	font-family: Trebuchet MS;
+    opacity: 1;
 }
 
 header a{
