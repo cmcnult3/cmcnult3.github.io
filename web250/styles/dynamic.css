@@ -6,14 +6,18 @@ body{
 }
 header{
 	color: #1e293b;
-	opacity: 0.5;
 	margin: 0px;
+    opacity: 0.75;
     background-color: #fefce8;
 	text-align: center;
 }
 a{
 	color: #fde047;
 	font-size: 18px;
+}
+
+header a:hover{
+    color: #fb923c; 
 }
 
 a:hover{
