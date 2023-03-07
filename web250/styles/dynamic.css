@@ -8,6 +8,7 @@ header{
 	color: #1e293b;
 	opacity: 0.5;
 	margin: 0px;
+    background color: #fefce8
 	text-align: center;
 }
 a{
@@ -41,6 +42,9 @@ main{
 	margin-left: 100px;
 	margin-right: 100px;
 	line-height: 1.5;
+}
+main h1{
+    text-align: center;
 }
 
 main strong{
