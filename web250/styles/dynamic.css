@@ -8,8 +8,10 @@ header{
 	color: #1e293b;
 	margin: 0px;
     opacity: 0.75;
-    background-color: #fefce8;
+    background-color: #fef9c3;
 	text-align: center;
+    border: 3px solid;
+	border-radius: 5px;
 }
 a{
 	color: #fde047;
