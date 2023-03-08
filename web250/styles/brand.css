@@ -19,14 +19,16 @@ header nav{
     display: inline-block;
 }
 
-header li{
-    float: right;
+header ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
 }
 
-header a{
-    display: block;
-    padding: 8px;
+header li{
+    display: inline;
 }
+
 
 em{
     color: #17B169; /* carlsberg Green */
