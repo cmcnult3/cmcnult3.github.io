@@ -12,6 +12,22 @@ header{
     padding: 20px 0px 10px;
 }
 
+header h1{
+    display: inline-block;
+}
+header nav{
+    display: inline-block;
+}
+
+header li{
+    float: right;
+}
+
+header a{
+    display: block;
+    padding: 8px;
+}
+
 em{
     color: #17B169; /* carlsberg Green */
     font-size: 125%;
