@@ -13,8 +13,11 @@ header{
 
 em{
     color: #17B169; /* carlsberg Green */
-    background-color: #E25822;
     font-size: 125%;
+}
+
+hr{
+    border: 1px solid #E25822;
 }
 
 /* #E25822 flame */
