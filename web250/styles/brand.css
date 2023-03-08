@@ -4,11 +4,12 @@ body{
     font-family:'Space Mono', monospace;
 }
 h1{
-    color: #FF4000; /* Orange */
+    color: #FF4000; /* Wix Orange */
 }
 header{
-    background-color:#17B169; /*Carlsberg Green*/
+    background-color:#4FD28A; /*Wix Green*/
     color: #004953;
+    padding: 25px;
 }
 
 em{
@@ -19,7 +20,8 @@ em{
 hr{
     border: 1px solid #E25822;
 }
-
+/* color: #4FD28A Wix Green */
+/* color: #FF4000; Wix Orange */
 /* #E25822 flame */
 /* color: #87A96B; Asparagus */
 /* color: #DADD98; Green Earth */
