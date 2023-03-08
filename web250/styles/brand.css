@@ -9,7 +9,7 @@ h1{
 header{
     background-color:#4FD28A; /*Wix Green*/
     color: #004953;
-    padding: 20px;
+    padding: 20px 0px 10px;
 }
 
 em{
@@ -18,7 +18,7 @@ em{
 }
 
 hr{
-    border: 1px solid #E25822;
+    border: 1px solid #FF4000;
 }
 /* color: #4FD28A Wix Green */
 /* color: #FF4000; Wix Orange */
