@@ -1,13 +1,13 @@
 body{
     background-color: #e2e8f0; /* Slate */
     color: #004953; /* Eagles Midnight Green */
+    font-family:'Space Mono', monospace;
 }
 h1{
     color: #17B169; /* carlsberg Green */
-    font-family:'Space Mono', monospace;
 }
 header{
-    background-color:#E25822; /*Apricot*/
+    background-color:#E25822; /*Flame*/
     color: #004953;
 }
 
