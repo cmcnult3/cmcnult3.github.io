@@ -27,6 +27,7 @@ header ul{
 
 header li{
     display: inline;
+    padding: 8px;
 }
 
 
