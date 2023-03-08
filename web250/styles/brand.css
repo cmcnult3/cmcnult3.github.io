@@ -4,10 +4,10 @@ body{
     font-family:'Space Mono', monospace;
 }
 h1{
-    color: #17B169; /* carlsberg Green */
+    color: #FF4000; /* Orange */
 }
 header{
-    background-color:#E25822; /*Flame*/
+    background-color:#17B169; /*Carlsberg Green*/
     color: #004953;
 }
 
