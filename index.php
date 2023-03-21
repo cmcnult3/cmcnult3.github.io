@@ -27,7 +27,7 @@
 	$sPage = $_GET["p"];
 	//echo ("You picked the page: " . $sPage); 
 	
-	if($sPage == "") {  $sPage = "home.php"; }
+	if($sPage == "") {  $sPage = "contents/home.php"; }
 	include($sPage);
 ?>
 </main>
