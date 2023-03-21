@@ -11,13 +11,12 @@ header{
     color: #004953;
     padding: 20px 10px 5px;
 }
+
 header h1{
     display: inline-block;
 }
 header nav{
-    float: right;
-    font-size: x-large;
-    padding: 30px 10px 5px;
+    display: inline-block;
 }
 
 header ul{
@@ -25,36 +24,16 @@ header ul{
         margin: 0;
         padding: 0;
 }
+
 header li{
     display: inline;
     padding: 8px;
 }
 
-figure{
-    text-align: center;
-}
 
-main div{
-    background-color: #4FD28A;
-    text-align: center;
-}
-main{
-    margin: 25px 100px;
-}
-main li{
-    margin: 10px;
-}
-figure em{
+em{
     color: #17B169; /* carlsberg Green */
-    font-size: 150%;
-}
-
-div em{
-    font-size: 150%;
-}
-
-strong{
-    color:#CE4A1C; /* carlsberg Green */
+    font-size: 125%;
 }
 
 hr{
@@ -65,10 +44,3 @@ hr{
 /* #E25822 flame */
 /* color: #87A96B; Asparagus */
 /* color: #DADD98; Green Earth */
-/* #CE4A1C wix secondary orange */
-
-footer{
-	text-align: center;
-}
-
-	
