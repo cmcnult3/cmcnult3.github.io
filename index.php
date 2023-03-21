@@ -13,10 +13,10 @@
 <h1>WEB250 | Cyle McNulty's Cozy Mastodon</h1>
     <nav>
 		<ul>
-        <li><a href= "?p=home.php"> Home</a></li>
-        <li><a href= "?p=introduction.php"> Introduction</a></li>
-        <li><a href= "?p=contract.php"> Contract</a></li>
-        <li><a href= "?p=brand.php">Brand</a></li>
+        <li><a href= "?p=contents/home.php"> Home</a></li>
+        <li><a href= "?p=contents/introduction.php"> Introduction</a></li>
+        <li><a href= "?p=contents/contract.php"> Contract</a></li>
+        <li><a href= "?p=contents/brand.php">Brand</a></li>
 		</ul>
     </nav>
 </header>

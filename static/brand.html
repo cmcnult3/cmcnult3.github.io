@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>AdventurePal ❱ Home</title>
+        <title>WEB250 ❱ Cyle McNulty's Cozy Mastodon ❱ Brand</title>
         <link href="styles/brand.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Space+Mono&display=swap" rel="stylesheet">
     </head>
+    <div data-include="components/header.html"></div>
     <body>
         <main>
-            <header>
-                <h1>AdventurePal</h1>
-                <nav>
-                    <ul>
-                        <li><a>Home</a></li>
-                        <li><a>Your Adventures</a></li>
-                        <li><a>Journal</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a href="https://cmcnult3.github.io/web250/">WEB250</a></li>
-                    </ul>
-                </nav>
-            </header>
+            <figure>
+                <image src= "images/solologo.png" alt="AdventurePal"/>
+                <figcaption><em>Amplify your adventures with AdventurePal!</em></figcaption>
+            </figure>
             <h3>Concept</h3>
             <p>AdventurePal is an application built to help plan and track your recreational activities. Initial functionality of the application will include:</p>
             <ul>
@@ -31,13 +24,12 @@
                 <li>A querying function to review locations based on visited/ want to visit status</li>
             </ul>
             <hr>
-            <h3>Mission</h3>
-            <p>AdventurePal provides a service helping individuals plan and track recreational activities to maximize experiences 
-                wherever life takes them.
-            </p>
-            <hr>
-            <h3>Catchphrase</h3>
-            <p><em>Amplify your adventures with AdventurePal!</em></p>
+            <div id="mission">
+                <h2>Mission</h2>
+                <strong><em><p>AdventurePal aims to provide a service which allows individuals to plan and track recreational activities in order to maximize experiences 
+                    wherever life takes them.
+                </p></em></strong>
+            </div>
             <hr>
             <h3>Color schemes</h3>
             <ul>
@@ -48,9 +40,11 @@
             <hr>
             <h3>Fonts</h3>
             <ul>
-                <li>Company Name: google fonts - M PLUS Rounded 1c</li>
+                <li>Content: google fonts - M PLUS Rounded 1c</li>
+                <li>Company Logo: google fonts - Josefine sans</li>
             </ul>
-
         </main>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/htmlinclude.js"></script>
     </body>
 </html>
