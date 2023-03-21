@@ -4,7 +4,7 @@ body{
     font-family:'Space Mono', monospace;
 }
 h1{
-    color: #FF4000; /* Wix Orange */
+    color: #CE4A1C; /* Wix Orange */
 }
 header{
     background-color:#4FD28A; /*Wix Green*/
@@ -56,7 +56,7 @@ div em{
 }
 
 strong{
-    color:#CE4A1C; /* carlsberg Green */
+    color:#CE4A1C; 
 }
 
 hr{
