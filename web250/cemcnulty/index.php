@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<title>WEB250 ❱ Cyle McNulty's Cozy Mastadon ❱ Home</title>
+    <link rel ="stylesheet" type="text/css" href = "styles/brand.css" />
+</head>
+<body>
+<header>
+<h1>WEB250 | Cyle McNulty's Cozy Mastodon</h1>
+    <nav>
+		<ul>
+        <li><a href= "?p=home.php"> Home</a></li>
+        <li><a href= "?p=introduction.php"> Introduction</a></li>
+        <li><a href= "?p=contract.php"> Contract</a></li>
+        <li><a href= "?p=brand.php">Brand</a></li>
+		</ul>
+    </nav>
+</header>
+<hr />
+<!-- dynamic content goes here -->
+<main>
+<?php
+	$sPage = $_GET["p"];
+	//echo ("You picked the page: " . $sPage); 
+	
+	if($sPage == "") {  $sPage = "home.php"; }
+	include($sPage);
+?>
+</main>
+
+<hr />
+
+<footer>
+<nav>
+		<a href="https://github.com/cmcnult3" target=_blank>Github</a> | 
+		<a href="https://cmcnult3.github.io/" target=_blank>Github Pages</a> | 
+		<a href="http://cmcnult3.github.io/web250" target=_blank>Github Course</a> | 
+		<a href="https://www.freecodecamp.org/cmcnult3" target=_blank>freecodecamp</a> | 
+		<a href="https://www.codecademy.com/profiles/web8953627608" target=_blank>Codeacademy</a> | 
+		<a href = "https://www.linkedin.com/in/cyle-mcnulty-320467111/" target=_blank>LinkedIn</a>
+	</nav>
+	</br></br>
+	<img src="images/logo.png" alt="adventurepal">
+	<br/><br/>Designed by Cyle McNulty © 2023<br/><br/>
+    <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none">
+	  <img src="images/valid_html5.gif" alt="Validate HTML" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none">
+	 <img src="images/vcss.gif" alt="Validate CSS" />
+    </a>
+</footer>
+
+</body>
+</html>
