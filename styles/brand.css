@@ -4,7 +4,10 @@ body{
     font-family:'Space Mono', monospace;
 }
 h1{
-    color: #CE4A1C; /* Wix Orange */
+    color: #FF4000; /* Wix Orange */
+}
+h2{
+    text-align: center;
 }
 header{
     background-color:#4FD28A; /*Wix Green*/
@@ -13,12 +16,14 @@ header{
 }
 header h1{
     display: inline-block;
+    box-sizing: border-box;
+    padding-right: 100px;
 }
 header nav{
-    float: right;
     font-size: x-large;
-    padding: 30px 10px 5px;
-}
+    display: inline-block;
+    box-sizing: border-box;   
+ }
 
 header ul{
         list-style-type: none;
@@ -33,12 +38,13 @@ header li{
 figure{
     text-align: center;
 }
+.brand{
+    object-fit: contain;
+}
 
 main div{
     background-color: #4FD28A;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Space Mono', monospace;
 }
 main{
     margin: 25px 100px;
@@ -56,7 +62,7 @@ div em{
 }
 
 strong{
-    color:#CE4A1C; 
+    color:#CE4A1C; /* carlsberg Green */
 }
 
 hr{
