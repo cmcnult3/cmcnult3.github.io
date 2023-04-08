@@ -16,6 +16,7 @@ header{
 }
 header h1{
     display: inline-block;
+    overflow-x: visible;
 }
 header nav{
     display: inline-block;
