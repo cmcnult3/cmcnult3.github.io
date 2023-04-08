@@ -22,7 +22,7 @@ header nav{
     border: 5px solid red; 
     display: inline-block;
     text-justify: right;
-    float: right;
+    direction: rtl;
     font-size: x-large;
 }
 
