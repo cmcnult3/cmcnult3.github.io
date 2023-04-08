@@ -16,12 +16,14 @@ header{
 }
 header h1{
     display: inline-block;
-    white-space: nowrap;
+    box-sizing: border-box;
+    padding-right: 100px;
 }
 header nav{
-    float: right;
     font-size: x-large;
-}
+    display: inline-block;
+    box-sizing: border-box;   
+ }
 
 header ul{
         list-style-type: none;
