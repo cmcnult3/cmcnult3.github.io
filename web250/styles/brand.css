@@ -19,7 +19,7 @@ header h1{
     white-space: nowrap;
 }
 header nav{
-    display: inline-block;
+    float: right;
     font-size: x-large;
     padding-left: 100px; 
 }
@@ -36,6 +36,7 @@ header li{
 
 figure{
     text-align: center;
+    object-fit: contain;
 }
 
 main div{
