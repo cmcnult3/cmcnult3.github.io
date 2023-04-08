@@ -24,6 +24,7 @@ header nav{
     text-justify: right;
     direction: rtl;
     font-size: x-large;
+    padding-left: 25px; 
 }
 
 header ul{
