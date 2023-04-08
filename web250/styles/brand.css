@@ -18,6 +18,7 @@ header h1{
     display: inline-block;
 }
 header nav{
+    border: 5px solid red; 
     display: inline-block;
     text-justify: right;
     font-size: x-large;
