@@ -21,10 +21,8 @@ header h1{
 header nav{
     border: 5px solid red; 
     display: inline-block;
-    text-justify: right;
-    direction: rtl;
     font-size: x-large;
-    padding-left: 25px; 
+    padding-left: 100px; 
 }
 
 header ul{
