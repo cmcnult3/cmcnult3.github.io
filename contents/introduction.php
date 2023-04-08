@@ -1,5 +1,6 @@
-<h2 style="text-align: center;">Cyle E McNulty</h1>
-<p style = text-align:center;">
+<h2>Introduction</h2>
+<h3> style="text-align: center;">Cyle E McNulty</h3>
+<p style = text-align: center;>
     <img src=images/cylecatchinglobster.jpg alt="image of Cyle holding a lobster in each hand" width = "225" height = "250"><br>
     <em>Catching Lobsters in Portland, Maine</em>
 </p> 
