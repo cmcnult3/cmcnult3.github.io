@@ -37,6 +37,9 @@ header li{
 
 figure{
     text-align: center;
+    width:100%
+}
+.brand{
     object-fit: contain;
 }
 
