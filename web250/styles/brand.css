@@ -16,11 +16,13 @@ header{
 }
 header h1{
     display: inline-block;
+    border:5px solid blue;
 }
 header nav{
     border: 5px solid red; 
     display: inline-block;
     text-justify: right;
+    float: right;
     font-size: x-large;
 }
 
