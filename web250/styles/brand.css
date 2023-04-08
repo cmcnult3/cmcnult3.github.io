@@ -37,7 +37,7 @@ header li{
 
 figure{
     text-align: center;
-    width:100%
+    margin: 25px 100px;
 }
 .brand{
     object-fit: contain;
@@ -48,7 +48,6 @@ main div{
     text-align: center;
 }
 main{
-    clear: right;
     margin: 25px 100px;
 }
 main li{
